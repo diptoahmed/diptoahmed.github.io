@@ -1,0 +1,133 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700; color:#222;
+}
+body {
+
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;color:#565656;
+
+
+}
+a:hover { text-decoration: none }
+.section-title{text-align: center;color:#565656;font:17px;
+margin-bottom: 50px;
+
+}
+
+.section-title h2{color:#222;}
+
+h2{font:32px;}
+
+
+.blog-box-bg{background-position:center;height:170px;width:300px; 
+background-size:cover;background-color:#ddd;  border:1px solid black;
+}
+
+
+.blog-box-content{
+
+border:1px#f4f4f4; padding: 20px; transition: all 0.3s;
+
+}
+
+.blog-meta i.fa {color:orange;margin-right:5px;}
+
+
+.blog-box-bg-1{background:url('../img/1.jpg');}
+.blog-box-bg-2{background:url('../img/3.jpg');}
+.blog-box-bg-3{background:url('../img/2.jpg');}
+
+
+.blog-box-content h3{font: 20px; margin-top: 15px;}
+
+.blog-readmore-btn{background:orange;color: white;border-radius: 4px; text-transform:uppercase;font-weight:600;
+
+padding: 10px 20px; margin-top:15px;
+}
+
+.section-padding{padding: 100px 0;}
+
+.blog-meta p{margin-bottom: 20px;}
+
+.quote-form-wrap img{display: block;
+margin:0 auto; text-align: center; 
+}
+
+.blue-quote-form {background:#2ab6fb;color:black;width:770px;padding:20px 44px;}
+
+.blue-quote-form h3:before{
+
+bottom: 0;height: 2px;left:50%;
+position: absolute;width: 130px;
+content:""; background:white;margin-left: -65px; margin-top:15px;
+
+}
+
+
+.blue-quote-form h3:after{position: absolute;
+    left:50%;
+    height:13px;
+width:13px;
+content:""; 
+border:2px red;
+border-radius:50%;
+background: red;
+margin-top: 34px;
+
+}
+.quote-form-wrap{margin-left:220px; }
+
+.blue-form-submit{text-align:center;
+    
+
+
+}
+
+.blue-quote-form h3{text-align: center;font-size: 26px;text-transform:uppercase;position: relative;
+padding-bottom: 15px;
+
+}
+.blue-quote-form input{
+
+border:none;background: none; border-bottom:2px solid white;color:white;
+
+width:100%; padding-bottom: 5px;
+
+}
+
+.blue-quote-form  textarea{border:none;background: none; border-bottom:2px solid white;color:white;
+
+width:100%;margin-top: -80px;}
+
+.blue-form-submit button{padding: 7px 8px;  }
+
+.blue-form-submit button:hover{
+
+
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
