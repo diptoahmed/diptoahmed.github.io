@@ -19,6 +19,13 @@
 
     jQuery(window).load(function(){
 
+
+
+
+    	&(".video-play-btn").magnificPopup({
+
+    	});
+
         
     });
 
