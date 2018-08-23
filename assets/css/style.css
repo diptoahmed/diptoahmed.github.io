@@ -1,54 +1,49 @@
-/* Base CSS */
-.alignleft {
-    float: left;
-    margin-right: 15px;
-}
-.alignright {
-    float: right;
-    margin-left: 15px;
-}
-.aligncenter {
-    display: block;
-    margin: 0 auto 15px;
-}
-a:focus { outline: 0 solid }
-img {
-    max-width: 100%;
-    height: auto;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 15px;
-    font-weight: 700; color:#222;
-}
-body {
+.section-padding{padding:80px 0;}
+.section-title h2{margin-top:-20px;text-align:center;color:green;}
+.col-md-4{margin-top:50px;padding: 10px;}
+.single-service-icon h3{margin: 20 0; font-size:20px;}
 
-font-family: 'Open Sans', sans-serif;
-font-size: 17px;color:#565656;
+.service-icon-container{display:table;
+    height:80px;
+    width:100%;}
 
 
+
+.service-icon-tablecell{display:table-cell;
+vertical-align: middle;
 }
+.single-service-icon{display: block;text-align: center;}
 
-.video-area-bg{background: url('../img/99.jpg'););
+.section-title h2:before{
 
-background-color:#ddd;
-background-position: center;
-background-size: cover;
+content:'';
 position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50px;
+top:100%;
+background-color: red;
+left:50%;
+margin-left: -8px;
 
-left: 0;height:100%;width:45%;
+margin-top:-60px;
+
+
 }
 
-.video-area{position:relative; margin-top:60px;}
-.check-icon li:before{font-family: fontAwesome;
 
-content:"\f00c"; color: green;
+.section-title h2:after{
+     
+content:'';
+position: absolute;
+height: 2px;
+width: 230px;
+background-color: red;
+top:100%;
+left: 48%;
+margin-left: -95px;
+margin-top: -54px;
+
 }
 
-.video-play-btn{font-size:70px;float: right;margin-top:80px;color:cyan;}
-
-.video-area h3{color:red;}
+.section-title p{padding-top:15px}
